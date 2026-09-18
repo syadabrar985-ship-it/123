@@ -13,7 +13,7 @@ st.set_page_config(
 
 DB_DIR = "./chroma_db"
 EMBED_MODEL = "all-MiniLM-L6-v2"
-MODEL_NAME = "llama-3.3-70b-versatile"  # Text Generation model on Groq
+MODEL_NAME = "llama-3.1-8b-instant"  # Text Generation model on Groq
 
 # Initialize Groq Client safely from Streamlit secrets or system env
 api_key = os.environ.get("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
